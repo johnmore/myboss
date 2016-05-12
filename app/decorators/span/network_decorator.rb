@@ -19,6 +19,10 @@ module Span
         h.content_tag :h3 do
           "LinkedIn"
         end
+      elsif object.title == "snapchat"
+        h.content_tag :h3 do
+          "Snapchat"
+        end
       else
         h.content_tag :h3 do
           "No Social Network Selected"
